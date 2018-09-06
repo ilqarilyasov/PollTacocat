@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol VoteControllerProtocol {
+protocol VoteControllerProtocol: class {
     var voteController: VoteController? { get set }
 }
