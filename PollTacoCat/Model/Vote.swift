@@ -12,6 +12,7 @@ struct Vote {
     
     let name: String
     let response: String
+    //let timestamp: Date
     
     init(name: String, response: String) {
         self.name = name

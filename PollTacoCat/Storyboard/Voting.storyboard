@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xTX-0C-qQg">
-                                <rect key="frame" x="16" y="22" width="343" height="172"/>
+                                <rect key="frame" x="16" y="20.5" width="343" height="172"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your favorite color?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zF-Tt-Zhj">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="37"/>
@@ -58,7 +58,7 @@
                         <constraints>
                             <constraint firstItem="YL9-KR-zm8" firstAttribute="trailing" secondItem="xTX-0C-qQg" secondAttribute="trailing" constant="16" id="3Yq-18-TQW"/>
                             <constraint firstItem="xTX-0C-qQg" firstAttribute="leading" secondItem="YL9-KR-zm8" secondAttribute="leading" constant="16" id="P0S-8g-7Nx"/>
-                            <constraint firstItem="xTX-0C-qQg" firstAttribute="top" secondItem="YL9-KR-zm8" secondAttribute="top" constant="2" id="ckF-7i-KAr"/>
+                            <constraint firstItem="xTX-0C-qQg" firstAttribute="top" secondItem="YL9-KR-zm8" secondAttribute="top" constant="0.5" id="ckF-7i-KAr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YL9-KR-zm8"/>
                     </view>

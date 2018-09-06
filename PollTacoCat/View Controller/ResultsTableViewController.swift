@@ -14,8 +14,6 @@ class ResultsTableViewController: UITableViewController, VoteControllerProtocol 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.clearsSelectionOnViewWillAppear = false
-        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     override func viewWillAppear(_ animated: Bool) {

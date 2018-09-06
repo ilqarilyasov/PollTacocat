@@ -48,12 +48,13 @@
                             <outlet property="delegate" destination="dOg-23-Lra" id="uYk-JT-efj"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Results" id="Ij4-zS-rf3"/>
+                    <tabBarItem key="tabBarItem" title="Results" id="AIG-3K-kmO"/>
+                    <navigationItem key="navigationItem" title="Results" id="Sis-ih-cyf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5h-qg-Cee" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1124" y="545"/>
+            <point key="canvasLocation" x="2063.1999999999998" y="544.67766116941539"/>
         </scene>
     </scenes>
 </document>
