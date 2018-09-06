@@ -47,6 +47,9 @@
                                         <state key="normal" title="SUBMIT">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="submitButtonTapped:" destination="1xU-0g-rjZ" eventType="touchUpInside" id="I0K-D0-frz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -62,6 +65,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Voting" id="WPE-RN-TbB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="hUk-mJ-Zn3" id="JvZ-tP-Jf1"/>
+                        <outlet property="responseTextField" destination="m3u-zH-xf3" id="LZz-7d-PGM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SpH-5d-kIw" sceneMemberID="firstResponder"/>
             </objects>
