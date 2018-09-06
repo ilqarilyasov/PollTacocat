@@ -12,6 +12,8 @@
 		82FE158F2141D02A0036CD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE158D2141D02A0036CD35 /* Main.storyboard */; };
 		82FE15912141D02B0036CD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FE15902141D02B0036CD35 /* Assets.xcassets */; };
 		82FE15942141D02B0036CD35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE15922141D02B0036CD35 /* LaunchScreen.storyboard */; };
+		82FE159F2141DACE0036CD35 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE159E2141DACE0036CD35 /* Vote.swift */; };
+		82FE15A22141DB930036CD35 /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE15A12141DB930036CD35 /* VoteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		82FE15902141D02B0036CD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FE15932141D02B0036CD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FE15952141D02B0036CD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FE159E2141DACE0036CD35 /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		82FE15A12141DB930036CD35 /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		82FE15882141D02A0036CD35 /* PollTacoCat */ = {
 			isa = PBXGroup;
 			children = (
+				82FE15A02141DAD20036CD35 /* Model */,
+				82FE15A32141DB970036CD35 /* Model Controller */,
 				82FE159D2141D0520036CD35 /* Storyboard */,
 				82FE159C2141D0460036CD35 /* View Controller */,
 				82FE159B2141D03C0036CD35 /* Supporting files */,
@@ -86,6 +92,22 @@
 				82FE15922141D02B0036CD35 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		82FE15A02141DAD20036CD35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82FE159E2141DACE0036CD35 /* Vote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82FE15A32141DB970036CD35 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82FE15A12141DB930036CD35 /* VoteController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82FE158C2141D02A0036CD35 /* ViewController.swift in Sources */,
+				82FE15A22141DB930036CD35 /* VoteController.swift in Sources */,
+				82FE159F2141DACE0036CD35 /* Vote.swift in Sources */,
 				82FE158A2141D02A0036CD35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK26JKU2YA;
-				INFOPLIST_FILE = PollTacoCat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PollTacoCat/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK26JKU2YA;
-				INFOPLIST_FILE = PollTacoCat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PollTacoCat/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
